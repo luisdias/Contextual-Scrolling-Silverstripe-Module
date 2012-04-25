@@ -9,7 +9,7 @@ Silverstripe module to contextual scrolling. It helps long vertical-scrolling
 pages by keeping the user informed of her location within the document.
 
 ## Github repository  
-https://github.com/luisdias/ContextualScroll-Silverstripe-Module
+https://github.com/luisdias/Contextual-Scrolling-Silverstripe-Module
 
 ## Notes  
 jQuery an jQuery UI libraries loaded from Google at ContextualScrollHolder.ss file  
