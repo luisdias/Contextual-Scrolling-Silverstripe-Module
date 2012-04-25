@@ -1,3 +1,10 @@
+/*   
+(c) 2011 Christopher Cliff
+Freely distributed under the MIT license.
+For all details and documentation:
+http://christophercliff.github.com/sausage
+*/
+
 .sausage-set {
     position: fixed; right: 0; top: 0;
     width: 15px; height: 100%;
