@@ -2,7 +2,7 @@
 /*
 MIT License
 
-Copyright (c) 2012 Luis E. S. Dias - www.smartbyte.com.br
+Copyright (c) 2012-2014 Luis E. S. Dias - www.smartbyte.com.br
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -51,13 +51,13 @@ class ContextualScrollHolder extends Page {
     
     public function getCMSFields() {
         $fields = parent::getCMSFields();
-        $fields->addFieldToTab('Root.Content.Main',new NumericField('FontSize','Font Size'),'Content');
-        $fields->addFieldToTab('Root.Content.Main',new NumericField('Height'),'Content');
-        $fields->addFieldToTab('Root.Content.Main',new NumericField('Width'),'Content');
-        $fields->addFieldToTab('Root.Content.Main',new NumericField('Padding'),'Content');
-        $fields->addFieldToTab('Root.Content.Main',new NumericField('MarginBottom','Margin Bottom'),'Content');
-        $fields->addFieldToTab('Root.Content.Main',new TextField('BackgroundColor','Background Color'),'Content');
-        $fields->removeFieldFromTab('Root.Content.Main', 'Content'); 
+        $fields->addFieldToTab('Root.Main', NumericField::create('FontSize','Font Size'),'Content');
+        $fields->addFieldToTab('Root.Main', NumericField::create('Height'),'Content');
+        $fields->addFieldToTab('Root.Main', NumericField::create('Width'),'Content');
+        $fields->addFieldToTab('Root.Main', NumericField::create('Padding'),'Content');
+        $fields->addFieldToTab('Root.Main', NumericField::create('MarginBottom','Margin Bottom'),'Content');
+        $fields->addFieldToTab('Root.Main', TextField::create('BackgroundColor','Background Color'),'Content');
+        $fields->removeFieldFromTab('Root.Main', 'Content'); 
         return $fields;
     }    
 }

@@ -13,6 +13,7 @@ https://github.com/luisdias/Contextual-Scrolling-Silverstripe-Module
 
 ## Notes  
 jQuery an jQuery UI libraries loaded from Google at ContextualScrollHolder.ss file  
+Version 0.2 - update for SilverStripe 3.x
 
 The ContextualScroll Silverstripe Module is based on:  
 

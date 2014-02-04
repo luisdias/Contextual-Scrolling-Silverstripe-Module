@@ -47,11 +47,11 @@
     <body>
         <div id="app">
             <ol class="page-set">
-                <% control Children %>
+                <% loop Children %>
                 <li class="page" data-name="$title">
                     $Content
                 </li>
-                <% end_control %>
+                <% end_loop %>
             </ol>
         </div><!-- /app -->
     </body>
